@@ -49,7 +49,7 @@ map_bird <- world %>%
   scale_colour_gradient2( low = "#e6bbad",
                           mid = "#72bcd4",  high = "#e6bbad",  midpoint = 6) +
   theme_xy_blank + labs(col="Month of observation") +
-  xlim(-95, -25) + ylim(-55, 20)
+  xlim(-95, -25) + ylim(-58, 20)
 
 
 map_bird + 
